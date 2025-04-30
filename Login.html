@@ -78,6 +78,13 @@
     .signup-btn:hover {
       background-color: #009bbd;
     }
+    a {
+      color: #00ffff;
+      margin-top: 20px;
+          }
+      p{
+            color: aliceblue;
+          }
   </style>
 </head>
 
@@ -85,10 +92,11 @@
 <div class="login-form">
   <h2>MUFTY COLLECTION</h2>
   <h3>Login</h3>
+  
 
   <form action="#" method="post">
     <label><strong>Username</strong></label>
-    <input type="text" name="username" placeholder="Muftawu Adam" required minlength="6" maxlength="15">
+    <input type="text" name="username" placeholder="Muftawu Adam" required minlength="6" maxlength="30">
 
     <label><strong>Email</strong></label>
     <input type="email" name="email" placeholder="example@gmail.com">
@@ -97,12 +105,11 @@
     <input type="password" name="password" placeholder="*******" required minlength="8" maxlength="50">
 
     <input type="submit" value="Login">
+    <p> Don't have an account? </p>
+   <a href="signup.html">Sign up</a>
   </form>
 
-  <a href="Mufty-Collection.html">
-    <button class="signup-btn">Sign Up</button>
-  </a>
-
-</div>
+  
+   </div>
 </body>
 </html>

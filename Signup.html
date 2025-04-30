@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mufty Collection Sign Up</title>
+  <style>
+    body {
+      background-color: #012b3b;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .signup-form {
+      background-color: #f4f4f4;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      width: 300px;
+    }
+
+    .signup-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #012b3b;
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .signup-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #00c8ec;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .signup-form input[type="submit"]:hover {
+      background-color: #009bbd;
+    }
+
+    .signup-form p {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .signup-form a {
+      color: #012b3b;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-form">
+    <h2>Sign Up</h2>
+    <form action="#" method="post">
+      <input type="text" name="fullname" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Create Account">
+    </form>
+    <p>Already have an account? <a href="login.html">Log In</a></p>
+  </div>
+</body>
+</html>
